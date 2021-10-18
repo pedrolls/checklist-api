@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:maysql://[db.name]cvhzq4aq6qx6.sa-east-1.rds.amazonaws.com:3306/ebdb
+    username: [username]
+    password: [password]
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+      genererate-ddl: true
+      show-sql: false
