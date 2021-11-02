@@ -13,7 +13,7 @@ import java.time.LocalTime;
 
 @Data
 @Entity(name = "CheckListItem")
-@Table(indexes = {@Index(name = "IDX_GUID.CK_IT", columnList = "guid")})
+@Table(indexes = {@Index(name = "IDX_GUID_CK_IT", columnList = "guid")})
 public class CheckListItemEntity extends BaseEntity{
 
     @Id

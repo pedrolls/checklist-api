@@ -15,7 +15,7 @@ import java.util.List;
 
 @Data
 @Entity(name = "Category")
-@Table(indexes = {@Index(name = "IDX_GUID.CAT", columnList = "guid")})
+@Table(indexes = {@Index(name = "IDX_GUID_CAT", columnList = "guid")})
 public class CategoryEntity extends BaseEntity{
 
     @Id
